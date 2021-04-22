@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FBCDFD1262F297400A91564 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBCDFD0262F297400A91564 /* CoreLocation.framework */; };
 		84960B4326249D6400129006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84960B4226249D6400129006 /* AppDelegate.swift */; };
 		84960B4526249D6400129006 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84960B4426249D6400129006 /* SceneDelegate.swift */; };
 		84960B4726249D6400129006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84960B4626249D6400129006 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FBCDFD0262F297400A91564 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		84960B3F26249D6400129006 /* Speed Based Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speed Based Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84960B4226249D6400129006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84960B4426249D6400129006 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBCDFD1262F297400A91564 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FBCDFCF262F297400A91564 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FBCDFD0262F297400A91564 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84960B3626249D6300129006 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +96,7 @@
 				84960B5B26249D6900129006 /* Speed Based SoundsTests */,
 				84960B6626249D6900129006 /* Speed Based SoundsUITests */,
 				84960B4026249D6400129006 /* Products */,
+				3FBCDFCF262F297400A91564 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
